@@ -1,0 +1,69 @@
+/* variables.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Fonts */
+  
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-size-xs: 0.75rem;   /* 12px */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-md: 1rem;      /* 16px */
+  --font-size-lg: 1.25rem;   /* 20px */
+  --font-size-xl: 1.5rem;    /* 24px */
+  --font-size-xxl: 2rem;     /* 32px */
+
+  /* Warm Colors */
+  --color-primary: #5D3A00;   /* Deep brown */
+  --color-secondary: #C86B31; /* Terracotta */
+  --color-accent: #E7A977;    /* Warm beige-orange */
+
+  /* Text Colors */
+  --color-text: #3D2C2C;      /* Default body text */
+  --color-text-light: #FFFFFF; /* For dark backgrounds */
+  --color-text-muted: #7A5C58; /* Secondary info text */
+  --color-heading: #2C1A0E;   /* Richer brown for headings */
+
+  /* Backgrounds */
+  --color-bg: #FFF8F0;        /* Light cream background */
+  --color-bg-alt: #F4E2D8;    /* Soft peach */
+  --color-border: #E6CDB5;    /* Beige border */
+
+   /* warm glass palette */
+  --warm-1: #fef3ec;   /* light surface */
+  --warm-2: #FFF8F0;   /* page bg */
+  --warm-3: #F4E2D8;   /* alt section */
+  --primary: #5D3A00;  /* deep brown */
+  --secondary: #C86B31;/* terracotta */
+  --accent: #E7A977;   /* soft beige/orange */
+
+  /* glass tokens */
+  --glass-bg: rgba(255,255,255,0.12);        /* translucent card bg */
+  --glass-border: rgba(255,255,255,0.22);    /* soft border */
+  --glass-strong: rgba(255,255,255,0.18);    /* slightly more opaque */
+  --glass-blur: 12px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 48px;
+
+  /* Border Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(93, 58, 0, 0.15);
+  --shadow-md: 0 4px 6px rgba(93, 58, 0, 0.2);
+  --shadow-lg: 0 10px 15px rgba(93, 58, 0, 0.25);
+
+  /* Transition */
+  --transition: all 0.3s ease-in-out;
+}

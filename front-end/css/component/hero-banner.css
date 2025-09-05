@@ -1,0 +1,14 @@
+@import url("../root_variables.css");
+
+.hero-section {
+    min-height: 50vh;
+    background-color: var(--color-primary);
+}
+
+.hero-section .section-content {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    color: var(--color-text-light);
+    justify-content: space-between;
+}
